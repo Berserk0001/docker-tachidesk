@@ -14,6 +14,7 @@ services:
       - BASIC_AUTH_ENABLED=true
       - BASIC_AUTH_USERNAME=manga
       - BASIC_AUTH_PASSWORD=hello123
+      - TACHIDESK_RELEASE_DOWNLOAD_URL=https://github.com/Suwayomi/Suwayomi-Server/releases/download/v0.7.0/Tachidesk-Server-v0.7.0-r1197.jar
     volumes:
       - ./data:/home/suwayomi/.local/share/Tachidesk
     ports:
